@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOSSEE Workshop Booking</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="FOSSEE Workshop Booking Platform for Instructors and Coordinators.">
+    
+    <!-- React & ReactDOM (UMD) via CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel standalone to compile JSX in browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Lucide Icons for beautiful SVG icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (for rapid and beautiful UI styling as recommended, using CDN for standalone) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config for Premium Theme -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            text: '#f8fafc',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS for Glassmorphism & Overrides -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-900 transition-colors duration-300 dark:bg-dark-bg dark:text-dark-text antialiased">
+    <div id="root"></div>
+
+    <!-- Main React Application -->
+    <!-- We use type="text/babel" to tell Babel to quickly transpile this script on load -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
