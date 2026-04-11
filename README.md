@@ -20,7 +20,11 @@ Due to the lack of Node.js dependency requirements in traditional systems or the
 
 ## 🎨 Visualization and Showcase
 
-*(Include Before & After screenshots here before pushing to GitHub)*
+### Before Re-design
+![Before UI](screenshots/before.png)
+
+### After Re-design
+![After UI](screenshots/after.png)
 
 ### Key Features Demoed:
 - Premium Glassmorphism UI
