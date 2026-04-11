@@ -20,11 +20,27 @@ Due to the lack of Node.js dependency requirements in traditional systems or the
 
 ## 🎨 Visualization and Showcase
 
-### Before Re-design
-![Before UI](screenshots/before.png)
+<details>
+<summary><b>Click here to view UI Screenshots</b></summary>
+<br>
 
-### After Re-design
-![After UI](screenshots/after.png)
+<img src="screenshots/Screenshot%20(316).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(317).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(318).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(319).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(320).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(321).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(322).png" width="800"/>
+<br><br>
+<img src="screenshots/Screenshot%20(323).png" width="800"/>
+
+</details>
 
 ### Key Features Demoed:
 - Premium Glassmorphism UI
